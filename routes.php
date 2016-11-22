@@ -60,6 +60,12 @@ namespace App\Controllers;
       $controller->showAll();
       break;
 
+    case 'register':
+
+      echo "register page";
+
+      break;
+
     default:
       echo "Error 404 ! Page not found !";
       break;
